@@ -1,0 +1,20 @@
+.container-fluid {
+    height: 100%; 
+    width: 100%; 
+    background-image: url('../../../assets/Speedline-1.6s-1920px.svg');
+}
+.wrapper {
+    height: 70%; 
+    width: 60%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem; 
+}

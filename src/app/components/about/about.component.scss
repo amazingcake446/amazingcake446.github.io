@@ -1,0 +1,74 @@
+.container {
+    height: 100vh; 
+    width: 100vw; 
+}
+.box {
+    height: 80%; 
+    width: 100%; 
+    line-height: 2rem;
+    text-align: center;
+    /* background-color: skyblue; */
+}
+.box-content {
+  /*   background-color: #fff; */
+    border-radius: 1rem;
+    width: 35rem; 
+    margin: auto; 
+    padding: 1rem; 
+    font-family: 'Roboto';
+    line-height: 1.5rem;
+}
+
+.about-image {
+    width: 14rem; 
+    margin-bottom: 3rem;
+}
+.title {
+    font-size: 4rem; 
+    margin-bottom: 3rem;
+    letter-spacing: .1rem; 
+}
+.sub-title {
+    font-size: 2rem; 
+    margin-bottom: 3rem; 
+    
+}
+.text {
+    letter-spacing: 2px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+    .box-content {
+        width: 90%; 
+    }
+    .about-image{
+        width: 10rem; 
+    }
+
+    .title {
+        font-size: 3rem; 
+    }
+    .sub-title {
+        font-size: 1.4rem;
+        width: 80%;
+        margin: auto;  
+        margin-bottom: 3rem;
+    }
+    .text {
+        width: 100%; 
+        padding: 0; 
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

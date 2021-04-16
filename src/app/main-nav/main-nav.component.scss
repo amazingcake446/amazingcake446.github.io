@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navigation {
+  width: 100%; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Abel', sans-serif;
+  
+}
+.left {
+  flex: 1;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin: 0; 
+  cursor: pointer;
+}
+
+.home:hover {
+  border-bottom: 2px solid #e0e1e0; 
+}
+
+.left a {
+  color: black; 
+  text-decoration: none;
+}
+.right {
+  flex: 1; 
+  display: flex; 
+  justify-content: center;
+  height: 100%; 
+  align-items: center;
+}
+
+.right-list {
+  display: flex; 
+  justify-content: space-around;
+  width: 25rem;
+  font-size: 1.1rem; 
+  list-style: none;
+  margin: 0; 
+}
+
+.right-list a{
+  color: black; 
+  text-decoration: none;
+  margin: 0; 
+}
+
+.right-list a:hover {
+  padding-bottom: .1rem;
+  border-bottom: 2px solid #e0e1e0; 
+}
+
+.nav-image {
+  width: 64px; 
+  cursor: pointer;
+}
+.material-icons {
+  padding: 1rem; 
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 599px) {  
+  .right {
+    display: none; 
+  }
+  .left {
+    justify-content: center;
+  }
+  .home {
+    display: none; 
+  }
+}
+
